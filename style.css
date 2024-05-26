@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+header{
+    background-color:#2c2c2c;
+    color: 
+    white;
+}
+
+main section{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0px;
+    align-items: center;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-one .sec-one-text{
+    text-align: center;
+    color: aliceblue;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+.sec-one-text h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.sec-one-text h2{
+    color: #6E6E73;
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+.sec-one-text a{
+    color:#2997ff;
+}
+
+.sec-one img{ 
+    width: 100%;
+}
+
+.sec-two{
+    position: relative;
+}
+
+.sec-two img{
+    width: 100%;
+    height: auto;
+}
+
+.sec-two div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.sec-two div:first-child{
+    top: 130px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 50%;
+}
+
+.sec-two .names p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #E1D3B6;
+    line-height: 2.5rem;
+}
+
+.sec-two div:last-child{
+    bottom: 50px;
+    text-align: center;
+}
+
+.sec-two .sec-two-text p{
+    font-weight: 500;
+    font-size: 1em;
+    color: aliceblue;
+    padding: 10px 0px;
+}
+
+.sec-tree .sec-tree-text{
+    text-align: center;
+    color: aliceblue;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+.sec-tree-text h1{
+    color: black;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.sec-tree-text h2{
+    color: black;
+    padding: 20px 0px;
+    font-weight: 400;
+}
+
+.sec-tree-text a{
+    color:#1a7fde;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sec-tree img{ 
+    width: 100%;
+}
+
+.sec-for .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0px 10px;
+}
+
+.sec-for .container .card{
+    position: relative;
+}
+
+.sec-for .container div{
+    width: auto;
+}
+
+.sec-for .container div img{
+    width: 100%;
+}
+
+.sec-for .container .sec-for-text{
+    text-align: center;
+    color: aliceblue;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    line-height: 1.7em;
+}
+
+.sec-for .container .sec-for-text h1{
+    font-weight: bold;
+    font-size:2em;
+}
+
+.sec-for .container .sec-for-text p{
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.sec-for #card2{
+    color: black;
+}
