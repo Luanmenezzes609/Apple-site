@@ -32,6 +32,22 @@ nav ul{
     gap: 25px;
     padding: 0px;
     align-items: center;
+    cursor: pointer;
+}
+
+nav ul li{
+    transition: transform .3s;
+}
+
+nav ul li:hover{
+    color: cadetblue;
+    transform: translate(0px, -2px);
+
+}
+
+main a:hover{
+    color: cadetblue;
+    transform: translate(0px, -2px);
 }
 
 main section{
@@ -182,4 +198,41 @@ main section{
 
 .sec-for #card2{
     color: black;
+}
+
+footer{
+    max-width: 1000px;
+    text-align: center;
+    text-align: justify;
+    margin: 50px auto;
+}
+
+footer p{
+    font-size: 12px;
+    padding: 5px 0px;
+    margin-bottom: 5px ;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    padding-top: 30px;
+
+}
+
+footer .container div ul li{
+    line-height: 2rem;
+    font-weight: 400;
+    color: #424245;
+}
+
+footer .container div ul li h3{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+footer .space{
+    margin-top: 20px;
 }
